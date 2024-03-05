@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+}
+/* Universal thing to do */
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(62, 174, 174);
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(40, 195, 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 30px;
+    border-end-end-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#navp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+#nav h3{
+    font-size: 15px;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 5px 9px;
+    border-radius: 60px;
+    font-weight: 600;
+}
+#nav i{
+    font-size: 15px;
+    border: 1.5px solid black;
+    padding: 5px 9px;
+    border-radius: 60px;
+    font-weight: 200;
+}
+#navp2 h1{
+    font-size: 33px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav button{
+    padding: 3px 8px;
+    border-radius: 40px;
+    border: 1.8px solid black;
+    font-weight: 500;
+} 
+#btn1{
+    background-color: rgb(92, 218, 107);
+}
+#btn2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(52, 235, 52);
+    border: none;
+}
+/* Nav Ended */
+/* images */
+#main>h1{
+            color: rgb(90, 226, 106);
+            text-transform: uppercase;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 130px;
+            width: 100%;
+            text-align: center;
+}   
+img{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(12deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(8deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(4deg);
+}
+
+/* bottom left and right */
+#btmleft{
+    position: absolute;
+    bottom: 3%;
+    left: 20px;
+    font-size: 13px;
+
+}
+#btmright{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    gap: 7px;
+    margin: 10px;
+
+}
+/* Hover on img 5 */
+#i1{
+    padding: 5px 5px;
+}
+#i2{
+    padding: 5px 5px;
+}
+#i3{
+    padding: 5px 5px;
+}
+
+#i1:hover{
+    background-color: rgb(191, 23, 110);
+    padding: 5px 5px;
+    color: aliceblue;
+    transition: 0.9s;
+}
+#i2:hover{
+    background-color: rgb(253, 0, 4);
+    padding: 5px 5px;
+    color: aliceblue;
+    transition: 0.9s;
+}
+#i3:hover{
+    background-color: rgb(15, 2, 9);
+    padding: 5px 5px;
+    color: aliceblue;
+    transition: 0.9s;
+}
+#navp1 h3:hover{
+    background-color: rgb(15, 2, 9);
+    padding: 5px 9px;
+    color: aliceblue;
+    transition: 0.9s;
+}
+#nav i:hover{
+    background-color: rgb(15, 2, 9);
+    padding: 5px 9px;
+    color: aliceblue;
+    transition: 0.9s;
+}
+/* PREV / ZOOM / NEXT BUTTONS */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+#svg{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    right: 640px;
+    gap: 7px;
+    margin: 10px;
+    
+}
+#svg:hover{
+    background-color: rgb(5, 177, 91);
+    padding: 4px 6px;
+    color: aliceblue;
+    transition: 0.9s;
+}
